@@ -8,8 +8,24 @@
 	color: "#000"
 }
 
+"#Tapa":{
+    backgroundColor: 'white',
+    color: 'black'
+}
+
+
 "#label": {
 	font: {
 		fontSize: 12
 	}
+}
+
+"#title" : {
+    color: 'black',
+    font: { fontFamily:'Arial', fontSize: '20dp',  },
+
+},
+"#subtitle" : {
+    color: 'black',
+    font: { fontFamily:'Arial', fontSize: '14dp' },
 }
