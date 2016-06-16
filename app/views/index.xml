@@ -1,5 +1,5 @@
 <Alloy>
-	<TabGroup backgroundColor="white"  textAlign="center" title="PROFILE" al>
+	<TabGroup backgroundColor="white"  textAlign="center" title="PROFILE" > 
 		 <Tab id="tab1" title="Page 1" >
                 <Window id="win1"  layout="vertical"  title="Page1">
                 	<View id="view"  backgroundColor="red" width="100%" height="20%"   top="0%" >
