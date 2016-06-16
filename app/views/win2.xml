@@ -1,0 +1,5 @@
+<Alloy>
+    <Window id="win2" backgroundColor="Black">
+        <Label id="label" top="10%">Detaill about this picture</Label>
+    </Window>
+</Alloy>
