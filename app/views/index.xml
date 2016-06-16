@@ -1,5 +1,26 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
-	</Window>
+    <TabGroup>
+        <Tab id="tab1" title="Page1">
+            <Window layout="vertical">
+                <View id="Header" backgroundColor="pink" width="100%" height="10%"></View>
+                <View id="Content" width="100%" height="80%">
+                <ScrollView layout="vertical" width="100%" height="100%">
+                <View backgroundColor="#AEF5B2" width="100%" height="40%">
+                	<ImageView image="/Image/image1.jpg"></ImageView>
+                </View>
+                <View backgroundColor="#BEB8F0" width="100%" height="40%">
+                	<ImageView image="/Image/image2.jpg"></ImageView>
+                </View>
+                <View backgroundColor="#F6E694" width="100%" height="40%">
+                	<ImageView image="/Image/image3.jpg"></ImageView>
+                </View>
+                </ScrollView>
+                </View>
+                <View id="Footer" title="Foot" backgroundColor="cyan" width="100%" height="10%">
+                <Label id="foot">Created By Emperor</Label>
+                </View>
+            </Window>
+        </Tab>
+        <Require src="tabView"/>
+    </TabGroup>
 </Alloy>
