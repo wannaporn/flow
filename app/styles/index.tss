@@ -15,17 +15,25 @@
 
 
 "#label": {
-	font: {
+	font: 
+	{
 		fontSize: 12
 	}
 }
 
-"#title" : {
+"#title" : 
+{
     color: 'black',
-    font: { fontFamily:'Arial', fontSize: '20dp',  },
+    font: 
+    { 
+    	fontFamily:'Arial', fontSize: '20dp'  
+    }
+}
 
-},
 "#subtitle" : {
     color: 'black',
-    font: { fontFamily:'Arial', fontSize: '14dp' },
+    font: 
+    { 
+    	fontFamily:'Arial', fontSize: '14dp' 
+    }
 }

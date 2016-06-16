@@ -1,9 +1,8 @@
 <Alloy>
 	<TabGroup>
-    	<Tab title="Profile" id="Taba" backgroundColor="white">
+    	<Tab title="Profile">
 			<Window>
         		<ListView id="list" defaultItemTemplate="template"	 onItemclick="handleClick" width="100%">
-        		
         			<Templates>
                 		<ItemTemplate name="template">
                     		<ImageView bindId="pic" id="icon" left="0%" top="60%" height="40%" width="100%" />
@@ -17,9 +16,9 @@
 							<ListItem id="page3" info:title="Data 3" backgroundImage="/images/Pic1_3.jpg" subinfo:title="Text" pic:image="/images/scoll.png" height="33%"></ListItem>
 							<ListItem id="page4" info:title="Data 4" backgroundImage="/images/Pic1_4.jpg" subinfo:title="Text" pic:image="/images/scoll.png" height="33%"></ListItem>
 							<ListItem id="page5" info:title="Data 5" backgroundImage="/images/Pic1_5.jpg" subinfo:title="Text" pic:image="/images/scoll.png" height="33%"></ListItem>
-					</ListSection>            
-			</ListView>	
-		</Window>
+						</ListSection>            
+				</ListView>	
+			</Window>
 	
 		</Tab>
 		<Tab title="Other">
@@ -40,5 +39,4 @@
 			</Window>
 		</Tab>
 	</TabGroup>
-	
 </Alloy>
