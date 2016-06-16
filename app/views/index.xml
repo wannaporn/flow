@@ -8,6 +8,7 @@
             			first page form this program\nมีการฝึกใช้เครื่องมือ และฟังค์ชั่นต่างๆในการทำงาน
         		</Label>
          		<Button id="button" onClick="doClick" title="Hello"top="10" width="100" height="50" />
+         		<Button id="b2" title="test" top="10%" />
     	</Window>
       </Tab>
 
