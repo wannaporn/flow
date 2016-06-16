@@ -1,11 +1,12 @@
-				<Alloy>
-					<Window layout="vertical">
-						<ScrollView layout="vertical">
-							<ImageView image="/images/Pic1_1.jpg"></ImageView>
-							<ImageView image="/images/Pic1_2.jpg"></ImageView>
-							<ImageView image="/images/Pic1_3.jpg"></ImageView>
-							<ImageView image="/images/Pic1_4.jpg"></ImageView>
-							<Label> DATA </Label>
-						</ScrollView>
-					</Window>
-				</Alloy>
+<Alloy>
+	<Window layout="vertical">
+		<ScrollView layout="vertical">
+			<ImageView image="/images/Pic1_1.jpg"></ImageView>
+			<ImageView image="/images/Pic1_2.jpg"></ImageView>
+			<ImageView image="/images/Pic1_3.jpg"></ImageView>
+			<ImageView image="/images/Pic1_4.jpg"></ImageView>
+			<Label> DATA </Label>
+		</ScrollView>
+	</Window>
+</Alloy>
+
