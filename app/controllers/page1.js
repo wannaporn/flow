@@ -5,3 +5,4 @@ function Navigate(e) {
 }
 
 $.page1.open();
+
