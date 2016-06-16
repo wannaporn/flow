@@ -1,5 +1,3 @@
-$.index.open();
-
 function btnClick(e) {
    var toast = Ti.UI.createNotification({
         message: "Toast lol",
@@ -20,4 +18,4 @@ function imgClick(e) {
 		});	
 	});	
 }
-
+$.index.open();
