@@ -1,5 +1,14 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+	<Window class="container" layout="vertical">
+		<View id="Header">
+			<Label id="Headerapp" color="white" >We All Sugar</Label>
+		</View>
+		<View id="Content" >
+			<ImageView id="slideme"  image="/images/11.jpg"></ImageView>
+		</View>
+		<View id="Footer" >
+			<Label id="Headerapp" color="white" >It's Me</Label>
+		</View>
 	</Window>
 </Alloy>
+
