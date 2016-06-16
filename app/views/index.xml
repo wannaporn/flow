@@ -1,5 +1,22 @@
-<Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
-	</Window>
+<Alloy>  
+    <TabGroup>        
+        <Tab title="Home">            
+           <Window class="container">         
+                <Label id="label" top="10%">GCCK CREW</Label>                      
+                <ImageView id="image" onClick="imgClick" height="50%" width="50%" image="https://prod.cloud.rockstargames.com/crews/sc/4629/22213877/publish/emblems/937cd92de4352819b6e50dad047b4f6664a5f97a_512.png"></ImageView>           
+            </Window>                  
+        </Tab>        
+        <Tab title="ETC">            
+            <Window class="container">                            
+                <ScrollView layout="vertical">                    
+                    <Button title="a" height="150px" onClick="btnClick" width="100%"></Button>                    
+                    <Button title="b" height="150px" onClick="btnClick" width="100%"></Button>                    
+                    <Button title="c" height="150px" onClick="btnClick" width="100%"></Button>                    
+                    <Button title="d" height="150px" onClick="btnClick" width="100%"></Button>                    
+                    <Button title="e" height="150px" onClick="btnClick" width="100%"></Button>                    
+                </ScrollView>                
+            </Window>              
+        </Tab>        
+    </TabGroup>    
 </Alloy>
+
