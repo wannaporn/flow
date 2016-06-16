@@ -3,6 +3,5 @@ function handleClick (e) {
 	var item = section.getItemAt(e.itemIndex);
 	Alloy.createController(item.properties.id).getView();
 }
-
 $.index.open();
 

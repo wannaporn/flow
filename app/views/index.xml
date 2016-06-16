@@ -19,7 +19,6 @@
 						</ListSection>            
 				</ListView>	
 			</Window>
-	
 		</Tab>
 		<Tab title="Other">
 			<Window layout="vertical">
