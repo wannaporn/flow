@@ -1,5 +1,9 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
-	</Window>
+   <Window class="container" layout="vertical">
+       <View id="Header">        
+           <Label id="herderapp">MyProfile</Label>
+                 <View backgroundImage="/images/img.jpg">                  
+                 </View>    
+              </View> 
+   </Window>
 </Alloy>
