@@ -14,20 +14,33 @@
     <Tab id="tab2" title="Profile">
       <Window class="container" layout="vertical">
         <Label id="Label2">Page two</Label>
-          <ImageView id="image" image="/pic/bar1.jpg" onClick="doClick2"width="600" height="300" />
-          <ImageView id="image" image="/pic/bar2.jpg" onClick="doClick2"width="600" height="300" />
+          <ImageView id="image" image="/pic/bar1.jpg" onClick="doClick2"width="600" height="200" />
+          <ImageView id="image" image="/pic/bar2.jpg" onClick="doClick2"width="600" height="200" />
       </Window>
     </Tab>
 
     <Tab id="tab3" title="Tools">
       <Window class="container" layout="vertical">
-        <Label id="Label3">Page three</Label>
+          <View>
+          <ScrollView  height="100%" width="100%"layout="vertical" >
+                <View layout="horizontal">
+                    <ImageView id="image" image="/pic/anime1.jpg"width="50%"hight="50%"/>
+                     <ImageView id="image" image="/pic/anime2.jpg"width="50%"hight="50%"/>
+                        <ImageView id="image" image="/pic/anime3.jpg"width="50%"hight="50%"/>
+                        <ImageView id="image" image="/pic/anime4.jpg"width="50%"hight="50%"/>
+                        <ImageView id="image" image="/pic/anime1.jpg"width="50%"hight="50%"/>
+                     <ImageView id="image" image="/pic/anime2.jpg"width="50%"hight="50%"/>
+                        <ImageView id="image" image="/pic/anime3.jpg"width="50%"hight="50%"/>
+                        <ImageView id="image" image="/pic/anime4.jpg"width="50%"hight="50%"/>  
+                </View>
+           </ScrollView>
+          </View>
       </Window>
     </Tab>
 
     <Tab id="tab4" title="NameList">
       <Window class="container" backgroundColor="black" exitOnClose="true" fullscreen="false" layout="vertical">
-        <ScrollView id="scrollView" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="true" height="80%" width="80%">
+        <ScrollView id="scrollView" showVerticalScrollIndicator="true" showHorizontalScrollIndicator="true" height="100%" width="100%">
           <TableView id="table">
             <TableViewSection id="sectionTest1" headerTitle="Test1">
               <TableViewRow title="Test"/>
