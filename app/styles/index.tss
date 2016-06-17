@@ -2,40 +2,24 @@
 	backgroundColor:"white"
 }
 
-"Label": {
+".Label": {
 	width: Ti.UI.SIZE,
 	height: Ti.UI.SIZE,
 	color: "#000"
 }
 
-"#Tapa":{
-    backgroundColor: 'white',
-    color: 'black'
-}
-
-
 "#label": {
-	font: 
-	{
-		fontSize: 12
-	}
+	fontSize: 12
 }
 
-"#title" : 
-{
-    color: 'black',
-    font: 
-    { 
-    	fontFamily:'Arial', fontSize: '20dp'  
-    }
+"#title": {
+	color: 'black',
+	fontFamily:'Arial',
+	fontSize: '20dp'
 }
 
-"#subtitle" : {
-    color: 'black',
-    font: 
-    { 
-    	fontFamily:'Arial', fontSize: '14dp' 
-    }
+"#subtitle": {
+	color: 'black',
+	fontFamily:'Arial',
+	fontSize: '14dp'
 }
-
-

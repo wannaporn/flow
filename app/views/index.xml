@@ -1,40 +1,32 @@
 <Alloy>
 	<TabGroup>
-    	<Tab title="Profile">
+		<Tab title="Profile">
 			<Window>
-        		<ListView id="list" defaultItemTemplate="template"	 onItemclick="handleClick" width="100%">
-        			<Templates>
-                		<ItemTemplate name="template">
-                    		<ImageView bindId="pic" id="icon" left="0%" top="60%" height="40%" width="100%" />
-                    		<Label bindId="info" id="title" left="5%" top="80%"/>
-                    		<Label bindId="subinfo" id="subtitle" left="5%" top="90%"/>
-                		</ItemTemplate>
-            		</Templates>	
-						<ListSection title="listname">
-							<ListItem id="page1" info:title="Data 1" backgroundImage="/images/Pic1_1.jpg" subinfo:title="Text" pic:image="/images/scoll.png" height="33%"></ListItem>
-							<ListItem id="page2" info:title="Data 2" backgroundImage="/images/Pic1_2.jpg" subinfo:title="Text" pic:image="/images/scoll.png" height="33%"></ListItem>
-							<ListItem id="page3" info:title="Data 3" backgroundImage="/images/Pic1_3.jpg" subinfo:title="Text" pic:image="/images/scoll.png" height="33%"></ListItem>
-							<ListItem id="page4" info:title="Data 4" backgroundImage="/images/Pic1_4.jpg" subinfo:title="Text" pic:image="/images/scoll.png" height="33%"></ListItem>
-							<ListItem id="page5" info:title="Data 5" backgroundImage="/images/Pic1_5.jpg" subinfo:title="Text" pic:image="/images/scoll.png" height="33%"></ListItem>
-						</ListSection>            
-				</ListView>	
+				<ListView id="list" defaultItemTemplate="template" onItemclick="handleClick" width="100%">
+					<Templates>
+						<ItemTemplate name="template">
+							<ImageView bindId="pic" id="icon" left="0%" top="60%" height="40%" width="100%" />
+							<Label bindId="info" id="title" left="5%" top="80%"/>
+							<Label bindId="subinfo" id="subtitle" left="5%" top="90%"/>
+						</ItemTemplate>
+					</Templates>
+					<ListSection title="listname">
+						<ListItem id="page1" info:title="Data 1" backgroundImage="/images/Pic1_1.jpg" subinfo:title="Text" pic:image="/images/scoll.png" height="33%"></ListItem>
+						<ListItem id="page2" info:title="Data 2" backgroundImage="/images/Pic1_2.jpg" subinfo:title="Text" pic:image="/images/scoll.png" height="33%"></ListItem>
+						<ListItem id="page3" info:title="Data 3" backgroundImage="/images/Pic1_3.jpg" subinfo:title="Text" pic:image="/images/scoll.png" height="33%"></ListItem>
+						<ListItem id="page4" info:title="Data 4" backgroundImage="/images/Pic1_4.jpg" subinfo:title="Text" pic:image="/images/scoll.png" height="33%"></ListItem>
+						<ListItem id="page5" info:title="Data 5" backgroundImage="/images/Pic1_5.jpg" subinfo:title="Text" pic:image="/images/scoll.png" height="33%"></ListItem>
+						</ListSection>
+				</ListView>
 			</Window>
 		</Tab>
 		<Tab title="Other">
 			<Window layout="vertical">
 				<View layout="horizontal">
-    				<Button title="a" width="33%"></Button>
-    				<Button title="b" width="33%"></Button>
-    				<Button title="c" width="33%"></Button>
+					<Button title="a" width="33%"></Button>
+					<Button title="b" width="33%"></Button>
+					<Button title="c" width="33%"></Button>
 				</View>
-			</Window>
-		</Tab>
-		<Tab title="PIC">
-			<Window>
-			</Window>
-		</Tab>
-		<Tab title="Contact">
-			<Window>
 			</Window>
 		</Tab>
 	</TabGroup>
