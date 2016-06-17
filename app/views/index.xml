@@ -1,28 +1,27 @@
 <Alloy>
 	<TabGroup>
-		<Tab id="t1" title="Menu"> 
+		<Tab id="t1" title="Menu">
 			<Window title="Window 1">
-					<ListView id="list1" defaultItemTemplate="template">
-						<Templates>
-                			<ItemTemplate name="template">
-                    			<Label bindId="info" id="title" color="black"/>
-                    			<Button bindId="detail" id="button" onClick="animateOpen" />
-                			</ItemTemplate>
-            			</Templates>
-						<ListSection>
-							<ListItem info:text ="Mountain" height="30%" backgroundImage="image/Mountains.png" detail:title="Deatil" />
-							<ListItem info:text ="Waterfall" height="30%" backgroundImage="image/Waterfall.png" detail:title="Deatil" />
-							<ListItem info:text ="PangPond" height="30%" backgroundColor="green" backgroundImage="image/pic.jpg" detail:title="Deatil" />
-							<ListItem info:text ="How About No!" height="30%" backgroundImage="image/bear.jpg" detail:title="Deatil" />
-							<ListItem info:text ="List5" height="30%" backgroundColor="red" detail:title="Deatil" />
-						</ListSection>
-					</ListView>				
+				<ListView id="list1" defaultItemTemplate="template">
+					<Templates>
+						<ItemTemplate name="template">
+							<Label bindId="info" id="title" color="black"/>
+							<Button bindId="detail" id="button" onClick="animateOpen" />
+						</ItemTemplate>
+					</Templates>
+					<ListSection>
+						<ListItem info:text ="Mountain" backgroundImage="image/Mountains.png" detail:title="Deatil" />
+						<ListItem info:text ="Waterfall" backgroundImage="image/Waterfall.png" detail:title="Deatil" />
+						<ListItem info:text ="PangPond" backgroundImage="image/pic.jpg" detail:title="Deatil" />
+						<ListItem info:text ="How About No!"  backgroundImage="image/bear.jpg" detail:title="Deatil" />
+						<ListItem info:text ="List5" detail:title="Deatil" />
+					</ListSection>
+				</ListView>
 			</Window>
 		</Tab>
 		<Tab id="t2" title="About">
 			<Window class="container" title="Window2">
-			  <Label id="label" top="20%">About Me!</Label>
-			  <Label id="label2">http://www.facebook.com/pondkingof</Label>
+				<Label id="label2">http://www.facebook.com/pondkingof</Label>
 			</Window>
 		</Tab>
 	</TabGroup>

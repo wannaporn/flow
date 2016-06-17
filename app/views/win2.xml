@@ -1,5 +1,5 @@
 <Alloy>
-    <Window id="win2" backgroundColor="Black">
-        <Label id="label" top="10%">Detaill about this picture</Label>
-    </Window>
+  <Window id="win2" class="container" >
+    <Button id="b1" title="click" />
+  </Window>
 </Alloy>
