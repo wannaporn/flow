@@ -1,5 +1,5 @@
 ".container": {
-	backgroundColor:"white"
+    backgroundColor: "white"
 }
 
 "Label": {
@@ -8,8 +8,40 @@
 	color: "#000"
 }
 
-"#label": {
+"#label1": {
 	font: {
-		fontSize: 12
+		fontSize: 20
 	}
 }
+
+"#MainView1": {
+    backgroundColor: "gray", 
+    width: "100%", 
+    height: "10%"
+}
+
+"#MainView2": {
+    backgroundColor: "white", 
+    width: "100%", 
+    height: "80%"
+}
+
+"#MainView3": {
+    backgroundColor: "gray", 
+    width: "100%", 
+    height: "10%"
+ }
+ 
+ "#ScorollView1": {
+     layout: "vertical", 
+     height: "100%", 
+     width: "100%"
+ }
+ 
+ "#Btn": {
+     width: "30%",
+     height: "50%",
+     color: "black",
+     borderColor: "black"
+ }
+

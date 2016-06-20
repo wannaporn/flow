@@ -1,5 +1,29 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
-	</Window>
+	<Window class= "container" layout= "vertical">
+		
+		<Label id= "label1" onClick= "doClick">Test....
+		</Label>
+		 
+		<ScrollView id= "ScorollView1">
+		
+		<View id= "MainView1">
+		</View>
+		 
+	    <View id= "MainView2">
+	        
+	    <ImageView image= "/image/FC.jpg">
+	    </ImageView> 
+		
+		</View>
+		  
+		<View id= "MainView3">
+		
+		<Button id= "Btn" onClick= "doclick">Test...
+		</Button>
+       
+        </View>
+       
+        </ScrollView>
+         
+    </Window>
 </Alloy>
