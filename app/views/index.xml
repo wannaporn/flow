@@ -1,5 +1,26 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
-	</Window>
+    <TabGroup backgroundColor="white"  textAlign="center" title="PROFILE" > 
+        <Tab id="tab1" title="Page 1" >
+            <Window id="win1"  layout="vertical"  title="Page1">
+                <View id="view"  backgroundColor="red" width="100%" height="20%"top="0%" >
+                    <Label id="label1" color="black"top="80%">Hello </Label>
+                </View>
+                <View id="view"  backgroundImage = "images/im/3.jpg" width="100%" height="20%" >
+                    <Label id="label1" top = "80%" color="red">สวัสดี</Label>
+                </View>
+                <View id="view"  backgroundColor="green" width="100%" height="20%" />
+                <View id="view" backgroundColor="brown" width="100%" height="20%" />
+                <View id="view" backgroundColor="blue" width="100%" height="20%" />
+            </Window>
+        </Tab>
+        <Tab id="tab2" title="page 2" >
+            <Window layout="vertical" id="win2" title="Tab 2">
+                <ImageViewid="image" onClick="doClick"  image="/images/im/1.jpg" width="50%" height="60%" />
+                <Label id="label2"onClick = "openWindow" color="red">I am Doggy กดๆ</Label>
+            </Window>
+        </Tab>
+        <Tab id ="tab3" title = "page3">
+            <Window></Window>
+        </Tab>
+    </TabGroup>
 </Alloy>
