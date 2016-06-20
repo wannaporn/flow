@@ -1,5 +1,5 @@
 <Alloy>
 	<Window class="container" title="page2">
-		  <ImageView   id="image" onClick="doClick2"  image="/images/im/1.jpg" />
+		  <ImageView  id="image" onClick="doClick2"  image="/images/im/1.jpg" />
 	</Window>
 </Alloy>
