@@ -1,5 +1,68 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
-	</Window>
+  <TabGroup>
+    <Tab id="tab1" title="HOME">
+      <Window id="win" backgroundColor="black" exitOnClose="true" fullscreen="false" layout="vertical" title="Label Demo">
+        <ImageView id="image" image="/pic/chloe01.jpg" onClick="doClick2" width="500" height="300" />
+        <Label id="label1" color="red" shadowColor="#aaa" text="Home Page" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="30" width="Ti.UI.SIZE" height="Ti.UI.SIZE" />
+        <Label id="label2" color="white" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" top="30" width="300" height="200">
+        first page form this program\nมีการฝึกใช้เครื่องมือ และฟังค์ชั่นต่างๆในการทำงาน
+        </Label>
+        <Button id="button" onClick="doClick" title="Hello" top="10" width="100" height="50" />
+      </Window>
+    </Tab>
+
+    <Tab id="tab2" title="Profile">
+      <Window class="container" layout="vertical">
+        <Label id="Label2">Page two</Label>
+          <ImageView id="image" image="/pic/bar1.jpg" onClick="doClick2" width="600" height="200" />
+          <ImageView id="image" image="/pic/bar2.jpg" onClick="doClick2" width="600" height="200" />
+      </Window>
+    </Tab>
+
+    <Tab id="tab3" title="Tools">
+      <Window class="container" layout="vertical">
+          <View>
+          <ScrollView  height="100%" width="100%" layout="vertical" >
+            <View layout="horizontal">
+              <ImageView id="image" image="/pic/anime1.jpg" width="50%" hight="50%"/>
+              <ImageView id="image" image="/pic/anime2.jpg" width="50%" hight="50%"/>
+              <ImageView id="image" image="/pic/anime3.jpg" width="50%" hight="50%"/>
+              <ImageView id="image" image="/pic/anime4.jpg" width="50%" hight="50%"/>
+              <ImageView id="image" image="/pic/anime1.jpg" width="50%" hight="50%"/>
+              <ImageView id="image" image="/pic/anime2.jpg" width="50%" hight="50%"/>
+              <ImageView id="image" image="/pic/anime3.jpg" width="50%" hight="50%"/>
+              <ImageView id="image" image="/pic/anime4.jpg" width="50%" hight="50%"/>
+            </View>
+          </ScrollView>
+          </View>
+      </Window>
+    </Tab>
+
+    <Tab id="tab4" title="NameList">
+      <Window class="container" backgroundColor="black" layout="vertical">
+        <ScrollView id="scrollView" height="100%" width="100%">
+          <TableView id="table">
+             <TableViewRow onClick="nextPage1" backgroundColor="red" width="100" height="50">
+              <View>
+               <ImageView image="/pic/school-emoticon.png" left="0%" width="30" height="30"/>
+               <Label left="10%" color="black" text="Page1"></Label>
+              </View>
+             </TableViewRow>
+             <TableViewRow onClick="nextPage2" backgroundColor="yellow" title="Page2" width="100" height="50">
+              <View>
+               <ImageView image="/pic/clapper-board.png" left="0%" width="30" height="30"/>
+               <Label left="10%" color="black" text="Page2"></Label>
+              </View>
+             </TableViewRow>
+             <TableViewRow  onClick="nextPage3" backgroundColor="green" title="Page3" width="100" height="50">
+              <View>
+               <ImageView image="/pic/construction-sign.png" left="0%" width="30" height="30"/>
+               <Label left="10%" color="black" text="Page3"></Label>
+              </View>
+             </TableViewRow>
+          </TableView>
+        </ScrollView>
+      </Window> 
+    </Tab>
+  </TabGroup>
 </Alloy>
