@@ -1,16 +1,15 @@
 <Alloy>
-    <TabGroup>
-      <Tab id="tab1" title="HOME">
+  <TabGroup>
+    <Tab id="tab1" title="HOME">
       <Window id="win" backgroundColor="black" exitOnClose="true" fullscreen="false" layout="vertical" title="Label Demo">
-      <ImageView id="image" image="/pic/chloe01.jpg" onClick="doClick2" width="500" height="300" />
-      <Label id="label1" color="red" shadowColor="#aaa" text="Home Page" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="30" width="Ti.UI.SIZE" height="Ti.UI.SIZE" />
-            <Label id="label2" color="white" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" top="30" width="300" height="200">
-                  first page form this program\nมีการฝึกใช้เครื่องมือ และฟังค์ชั่นต่างๆในการทำงาน
-            </Label>
-            <Button id="button" onClick="doClick" title="Hello" top="10" width="100" height="50" />
-            <Button id="b2" title="test" top="10%" />
+        <ImageView id="image" image="/pic/chloe01.jpg" onClick="doClick2" width="500" height="300" />
+        <Label id="label1" color="red" shadowColor="#aaa" text="Home Page" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="30" width="Ti.UI.SIZE" height="Ti.UI.SIZE" />
+        <Label id="label2" color="white" textAlign="Ti.UI.TEXT_ALIGNMENT_LEFT" top="30" width="300" height="200">
+        first page form this program\nมีการฝึกใช้เครื่องมือ และฟังค์ชั่นต่างๆในการทำงาน
+        </Label>
+        <Button id="button" onClick="doClick" title="Hello" top="10" width="100" height="50" />
       </Window>
-      </Tab>
+    </Tab>
 
     <Tab id="tab2" title="Profile">
       <Window class="container" layout="vertical">
@@ -24,17 +23,17 @@
       <Window class="container" layout="vertical">
           <View>
           <ScrollView  height="100%" width="100%" layout="vertical" >
-                <View layout="horizontal">
-                    <ImageView id="image" image="/pic/anime1.jpg" width="50%" hight="50%"/>
-                     <ImageView id="image" image="/pic/anime2.jpg" width="50%" hight="50%"/>
-                        <ImageView id="image" image="/pic/anime3.jpg" width="50%" hight="50%"/>
-                        <ImageView id="image" image="/pic/anime4.jpg" width="50%" hight="50%"/>
-                        <ImageView id="image" image="/pic/anime1.jpg" width="50%" hight="50%"/>
-                     <ImageView id="image" image="/pic/anime2.jpg" width="50%" hight="50%"/>
-                        <ImageView id="image" image="/pic/anime3.jpg" width="50%" hight="50%"/>
-                        <ImageView id="image" image="/pic/anime4.jpg" width="50%" hight="50%"/>
-                </View>
-           </ScrollView>
+            <View layout="horizontal">
+              <ImageView id="image" image="/pic/anime1.jpg" width="50%" hight="50%"/>
+              <ImageView id="image" image="/pic/anime2.jpg" width="50%" hight="50%"/>
+              <ImageView id="image" image="/pic/anime3.jpg" width="50%" hight="50%"/>
+              <ImageView id="image" image="/pic/anime4.jpg" width="50%" hight="50%"/>
+              <ImageView id="image" image="/pic/anime1.jpg" width="50%" hight="50%"/>
+              <ImageView id="image" image="/pic/anime2.jpg" width="50%" hight="50%"/>
+              <ImageView id="image" image="/pic/anime3.jpg" width="50%" hight="50%"/>
+              <ImageView id="image" image="/pic/anime4.jpg" width="50%" hight="50%"/>
+            </View>
+          </ScrollView>
           </View>
       </Window>
     </Tab>
