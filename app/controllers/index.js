@@ -8,4 +8,16 @@ function doClick2(e) {
     alert("I love chloe");
 }
 
+function nextPage1(e){
+Alloy.createController('page1').getView().open();  
+}
+
+function nextPage2(e){
+Alloy.createController('page2').getView().open(); 
+}
+
+function nextPage3(e){
+Alloy.createController('page3').getView().open();  
+}
+
 $.index.open();
